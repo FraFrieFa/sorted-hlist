@@ -1,0 +1,14 @@
+[package]
+name = "sorted-hlist"
+version = "0.1.0"
+authors = ["FraFrieFa"]
+edition = "2021"
+description = "Type-level heterogeneous lists with compile-time intersection and sorting using typenum."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/FraFrieFa/sorted-hlist"
+keywords = ["typenum", "hlist", "type-level", "embedded", "traits"]
+categories = ["data-structures", "embedded", "rust-patterns"]
+readme = "README.md"
+
+[dependencies]
+typenum = "1.18.0"
