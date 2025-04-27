@@ -1,6 +1,8 @@
+#![no_std]
+
 use typenum::{Cmp, Equal, Greater, Less};
 
-use std::marker::PhantomData;
+use core::marker::PhantomData;
 
 pub struct HNil;
 

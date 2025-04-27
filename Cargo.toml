@@ -1,13 +1,13 @@
 [package]
 name = "sorted-hlist"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["FraFrieFa"]
 edition = "2021"
 description = "Type-level heterogeneous lists with compile-time intersection and sorting using typenum."
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/FraFrieFa/sorted-hlist"
-keywords = ["typenum", "hlist", "type-level", "embedded", "traits"]
-categories = ["data-structures", "embedded", "rust-patterns"]
+keywords = ["typenum", "hlist", "type-level", "embedded", "no-std"]
+categories = ["data-structures", "embedded", "rust-patterns", "no-std"]
 readme = "README.md"
 
 [dependencies]
