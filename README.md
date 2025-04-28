@@ -1,6 +1,6 @@
 # `sorted-hlist`
 
-A zero-cost, type-level heterogeneous list (HList) implementation in Rust with support for compile-time sorting constraints and intersection operations — powered by [`typenum`](https://docs.rs/typenum).
+A zero-cost, type-level heterogeneous list (HList) implementation in Rust with support for compile-time sorting constraints and intersection operations - powered by [`typenum`](https://docs.rs/typenum).
 
 ## Features
 
@@ -8,7 +8,7 @@ A zero-cost, type-level heterogeneous list (HList) implementation in Rust with s
 - Compile-time enforcement of sortedness (`SortedHList`)
 - Type-level set intersection via the `Intersect` trait
 - Type-safe macro `mk_hlist!(...)` for building HLists
-- No runtime overhead — all type-level logic only
+- No runtime overhead - all type-level logic only
 
 ## Example
 
